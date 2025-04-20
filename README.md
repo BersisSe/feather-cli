@@ -35,21 +35,10 @@ feather run
 feather help
 ```
 
-## Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Submit a pull request with a detailed description.
-
-## License
-
-Feather CLI is licensed under the [MIT License](LICENSE).
-
 ## Support
+Feather-Cli Will Stay Up to date with the Framework Updates.
 
-If you encounter any issues or have questions, feel free to open an issue on our [GitHub repository](https://github.com/example/feather-cli) or contact us at support@example.com.
+If you encounter any issues or have questions, feel free to open an issue on this Repo.
 
 ---
 Happy coding with Feather CLI!
