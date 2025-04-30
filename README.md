@@ -1,44 +1,55 @@
-# Feather CLI
+# 🛠️ Feather CLI
 
-Feather CLI is a lightweight and efficient Toolchain for the Feather Web Framework, Feather CLI helps developers manage and develop apps with ease.
+**Feather CLI** is the official toolchain for the [Feather web framework](https://crates.io/crates/feather).  
+It helps you scaffold, build, run, and hot-reload your Feather projects with ease.
 
-## Features
+---
 
-- **Lightweight**: Minimal dependencies for faster performance.
-- **Cross-Platform**: Works seamlessly on Windows, macOS, and Linux.
-- **Hot-Reloading**: Automatically reloads your application on file changes.
-- **Easy to Use**: Simple commands for common tasks.
+## ✨ Features
 
-## Installation
+- ⚡ **Hot Reloading** — Rebuilds on file changes
+- 🧪 **Project Scaffolding** — Kickstart with `feather new`
+- 🚀 **Cross-platform** — Runs on macOS, Linux, Windows
+- 🔁 **Simple Commands** — Build, run, and go
 
-To install Feather CLI, use the following command:
+---
+
+## 📦 Installation
 
 ```bash
 cargo install feather-cli
 ```
 
-## Usage
+---
 
-After installation, you can use the `feather` command to interact with the CLI. Below are some common commands:
+## 🚀 Usage
 
 ```bash
-# Initialize a new project
-feather new <project-name>
+# Create a new Feather app
+feather new my-app
 
-# Build your project
+# Build it
 feather build
 
-# Run your project
+# Run the app
 feather run
 
-# Display help information
+# Watch & reload automatically (dev mode)
+feather dev
+
+# Help & docs
 feather help
 ```
 
-## Support
-Feather-Cli Will Stay Up to date with the Framework Updates.
+---
 
-If you encounter any issues or have questions, feel free to open an issue on this Repo.
+## 🤝 Support
+
+Feather CLI is kept in sync with the latest features of the Feather framework.  
+Please report bugs or feature ideas in the issues section.
 
 ---
-Happy coding with Feather CLI!
+
+> Ready to fly? Run `feather new` and start building with joy.
+
+---
