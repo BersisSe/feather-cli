@@ -4,6 +4,8 @@ use std::path::Path;
 use std::process::Command;
 use std::sync::mpsc;
 
+use crate::constants;
+
 pub fn create_new_project(name: &str) {
     let project_path = Path::new(name);
     if project_path.exists() {
@@ -30,21 +32,7 @@ pub fn create_new_project(name: &str) {
         return;
     }
     // 4. Replace main.rs
-    let main_rs = r#"
-use feather::{App, Request, Response};
-use feather::middleware::MiddlewareResult;
-
-fn main() {
-    let mut app = App::new();
-
-    app.get("/", |req: &mut Request, res: &mut Response| {
-        res.send_text("🎉 Feather app is live!");
-        MiddlewareResult::Next
-    });
-
-    app.listen("127.0.0.1:8080");
-}
-    "#;
+    let main_rs = constants::MAIN;
     fs::write(project_path.join("src").join("main.rs"), main_rs).unwrap();
     println!("✅ Project '{}' created successfully!", name);
     println!("Run `cd {}` to navigate to your project directory.", name);

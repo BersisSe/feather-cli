@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-
+pub mod constants;
 mod logic;
 #[derive(Parser)]
 #[command(name = "Feather CLI")]
