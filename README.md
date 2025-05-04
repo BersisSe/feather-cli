@@ -5,12 +5,11 @@ It helps you scaffold, build, run, and hot-reload your Feather projects with eas
 
 ---
 
-## ✨ Features
+## Features
 
 - ⚡ **Hot Reloading** — Rebuilds on file changes
-- 🧪 **Project Scaffolding** — Kickstart with `feather new`
-- 🚀 **Cross-platform** — Runs on macOS, Linux, Windows
-- 🔁 **Simple Commands** — Build, run, and go
+-  **Project Scaffolding** — Kickstart with `feather new`
+-  **Simple Commands** — Build, run, and go
 
 ---
 
@@ -26,13 +25,13 @@ cargo install feather-cli
 
 ```bash
 # Create a new Feather app
-feather new my-app
+feather-cli new my-app
 
 # Build it
-feather build
+feather-cli build
 
 # Run the app
-feather run
+feather-cli run
 
 # Watch & reload automatically (dev mode)
 feather dev
